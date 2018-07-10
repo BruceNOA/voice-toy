@@ -1,0 +1,279 @@
+Dependencies for Project 'secondary_bootloader', Target 'secondary_bootloader': (DO NOT MODIFY !)
+F (.\startup\startup_CMSDK_CM0.s)(0x5798CAC5)(--cpu Cortex-M0 --li -g --apcs=interwork --pd "__MICROLIB SETA 1" -I.\includes-I "D:\Head of SW\GLO2\GLO_Device_2_06-13V3\DA1458x_SDK\5.0.4\utilities\secondary_bootloader\RTE"-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\Device\ARM\ARMCM0\Include--pd "__UVISION_VERSION SETA 514" --pd "ARMCM0 SETA 1"--list .\out\startup_cmsdk_cm0.lst --xref -o .\out\startup_cmsdk_cm0.o --depend .\out\startup_cmsdk_cm0.d)
+F (.\startup\system_CMSDK.c)(0x5798CAC5)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O3 --apcs=interwork -I.\includes -I..\..\sdk\platform\include -I..\..\sdk\platform\driver\spi -I..\..\sdk\platform\driver\i2c_eeprom -I..\..\sdk\platform\driver\spi_flash -I..\..\sdk\platform\driver\gpio -I..\..\sdk\platform\arch -I..\..\sdk\platform\arch\compiler\rvds -I..\..\sdk\platform\arch\ll\rvds -I..\..\sdk\platform\driver\reg --c99-I "D:\Head of SW\GLO2\GLO_Device_2_06-13V3\DA1458x_SDK\5.0.4\utilities\secondary_bootloader\RTE"-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\Device\ARM\ARMCM0\Include-D__UVISION_VERSION="514" -DARMCM0 -D__DA14583__-o .\out\system_cmsdk.o --omf_browse .\out\system_cmsdk.crf --depend .\out\system_cmsdk.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\sdk\platform\include\global_io.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\datasheet.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\core_cm0.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\core_cmInstr.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\core_cmFunc.h)(0x5798CAC3)
+F (.\src\bootloader.c)(0x5B31E2DE)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O3 --apcs=interwork -I.\includes -I..\..\sdk\platform\include -I..\..\sdk\platform\driver\spi -I..\..\sdk\platform\driver\i2c_eeprom -I..\..\sdk\platform\driver\spi_flash -I..\..\sdk\platform\driver\gpio -I..\..\sdk\platform\arch -I..\..\sdk\platform\arch\compiler\rvds -I..\..\sdk\platform\arch\ll\rvds -I..\..\sdk\platform\driver\reg --c99-I "D:\Head of SW\GLO2\GLO_Device_2_06-13V3\DA1458x_SDK\5.0.4\utilities\secondary_bootloader\RTE"-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\Device\ARM\ARMCM0\Include-D__UVISION_VERSION="514" -DARMCM0 -D__DA14583__-o .\out\bootloader.o --omf_browse .\out\bootloader.crf --depend .\out\bootloader.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\..\sdk\platform\include\global_io.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\datasheet.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\core_cm0.h)(0x5798CAC3)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\sdk\platform\include\core_cmInstr.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\core_cmFunc.h)(0x5798CAC3)
+I (.\includes\user_periph_setup.h)(0x5798CAC5)
+I (..\..\sdk\platform\driver\gpio\gpio.h)(0x5798CAC3)
+I (..\..\sdk\platform\arch\arch.h)(0x5798CAC2)
+I (..\..\sdk\platform\arch\compiler\rvds\compiler.h)(0x5798CAC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\sdk\platform\arch\ll\rvds\ll.h)(0x5798CAC2)
+I (..\..\sdk\platform\include\reg_intc.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\_reg_intc.h)(0x5798CAC3)
+I (..\..\sdk\platform\driver\reg\reg_access.h)(0x5798CAC3)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\..\sdk\platform\include\ARMCM0.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\system_ARMCM0.h)(0x5798CAC4)
+I (..\..\sdk\platform\driver\i2c_eeprom\i2c_eeprom.h)(0x5798CAC3)
+I (..\..\sdk\platform\driver\spi\spi.h)(0x5798CAC3)
+I (.\includes\uart_booter.h)(0x5798CAC5)
+I (.\includes\bootloader.h)(0x5B31DFE6)
+I (.\includes\spi_commands.h)(0x5798CAC5)
+I (..\..\sdk\platform\driver\spi_flash\spi_flash.h)(0x5798CAC3)
+I (.\includes\uart.h)(0x5798CAC5)
+I (.\includes\sw_aes.h)(0x5798CAC5)
+I (.\includes\os_int.h)(0x5798CAC5)
+F (.\src\timer.c)(0x5798CAC5)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O3 --apcs=interwork -I.\includes -I..\..\sdk\platform\include -I..\..\sdk\platform\driver\spi -I..\..\sdk\platform\driver\i2c_eeprom -I..\..\sdk\platform\driver\spi_flash -I..\..\sdk\platform\driver\gpio -I..\..\sdk\platform\arch -I..\..\sdk\platform\arch\compiler\rvds -I..\..\sdk\platform\arch\ll\rvds -I..\..\sdk\platform\driver\reg --c99-I "D:\Head of SW\GLO2\GLO_Device_2_06-13V3\DA1458x_SDK\5.0.4\utilities\secondary_bootloader\RTE"-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\Device\ARM\ARMCM0\Include-D__UVISION_VERSION="514" -DARMCM0 -D__DA14583__-o .\out\timer.o --omf_browse .\out\timer.crf --depend .\out\timer.d)
+I (..\..\sdk\platform\include\global_io.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\datasheet.h)(0x5798CAC3)
+I (.\includes\timer.h)(0x5798CAC5)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\sdk\platform\driver\gpio\gpio.h)(0x5798CAC3)
+I (..\..\sdk\platform\arch\arch.h)(0x5798CAC2)
+I (..\..\sdk\platform\arch\compiler\rvds\compiler.h)(0x5798CAC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\sdk\platform\arch\ll\rvds\ll.h)(0x5798CAC2)
+I (..\..\sdk\platform\include\reg_intc.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\_reg_intc.h)(0x5798CAC3)
+I (..\..\sdk\platform\driver\reg\reg_access.h)(0x5798CAC3)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\..\sdk\platform\include\ARMCM0.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\core_cm0.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\core_cmInstr.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\core_cmFunc.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\system_ARMCM0.h)(0x5798CAC4)
+I (.\includes\user_periph_setup.h)(0x5798CAC5)
+I (..\..\sdk\platform\driver\i2c_eeprom\i2c_eeprom.h)(0x5798CAC3)
+I (..\..\sdk\platform\driver\spi\spi.h)(0x5798CAC3)
+F (..\..\sdk\platform\driver\spi_flash\spi_flash.c)(0x5798CAC3)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O3 --apcs=interwork -I.\includes -I..\..\sdk\platform\include -I..\..\sdk\platform\driver\spi -I..\..\sdk\platform\driver\i2c_eeprom -I..\..\sdk\platform\driver\spi_flash -I..\..\sdk\platform\driver\gpio -I..\..\sdk\platform\arch -I..\..\sdk\platform\arch\compiler\rvds -I..\..\sdk\platform\arch\ll\rvds -I..\..\sdk\platform\driver\reg --c99-I "D:\Head of SW\GLO2\GLO_Device_2_06-13V3\DA1458x_SDK\5.0.4\utilities\secondary_bootloader\RTE"-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\Device\ARM\ARMCM0\Include-D__UVISION_VERSION="514" -DARMCM0 -D__DA14583__-o .\out\spi_flash.o --omf_browse .\out\spi_flash.crf --depend .\out\spi_flash.d)
+I (..\..\sdk\platform\driver\spi_flash\spi_flash.h)(0x5798CAC3)
+I (..\..\sdk\platform\driver\spi\spi.h)(0x5798CAC3)
+I (..\..\sdk\platform\driver\gpio\gpio.h)(0x5798CAC3)
+I (..\..\sdk\platform\arch\arch.h)(0x5798CAC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\sdk\platform\arch\compiler\rvds\compiler.h)(0x5798CAC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\sdk\platform\arch\ll\rvds\ll.h)(0x5798CAC2)
+I (..\..\sdk\platform\include\reg_intc.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\_reg_intc.h)(0x5798CAC3)
+I (..\..\sdk\platform\driver\reg\reg_access.h)(0x5798CAC3)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\..\sdk\platform\include\ARMCM0.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\global_io.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\datasheet.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\core_cm0.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\core_cmInstr.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\core_cmFunc.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\system_ARMCM0.h)(0x5798CAC4)
+F (..\..\sdk\platform\driver\spi\spi.c)(0x5798CAC3)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O3 --apcs=interwork -I.\includes -I..\..\sdk\platform\include -I..\..\sdk\platform\driver\spi -I..\..\sdk\platform\driver\i2c_eeprom -I..\..\sdk\platform\driver\spi_flash -I..\..\sdk\platform\driver\gpio -I..\..\sdk\platform\arch -I..\..\sdk\platform\arch\compiler\rvds -I..\..\sdk\platform\arch\ll\rvds -I..\..\sdk\platform\driver\reg --c99-I "D:\Head of SW\GLO2\GLO_Device_2_06-13V3\DA1458x_SDK\5.0.4\utilities\secondary_bootloader\RTE"-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\Device\ARM\ARMCM0\Include-D__UVISION_VERSION="514" -DARMCM0 -D__DA14583__-o .\out\spi.o --omf_browse .\out\spi.crf --depend .\out\spi.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\sdk\platform\include\global_io.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\datasheet.h)(0x5798CAC3)
+I (..\..\sdk\platform\driver\spi\spi.h)(0x5798CAC3)
+I (..\..\sdk\platform\driver\gpio\gpio.h)(0x5798CAC3)
+I (..\..\sdk\platform\arch\arch.h)(0x5798CAC2)
+I (..\..\sdk\platform\arch\compiler\rvds\compiler.h)(0x5798CAC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\sdk\platform\arch\ll\rvds\ll.h)(0x5798CAC2)
+I (..\..\sdk\platform\include\reg_intc.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\_reg_intc.h)(0x5798CAC3)
+I (..\..\sdk\platform\driver\reg\reg_access.h)(0x5798CAC3)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\..\sdk\platform\include\ARMCM0.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\core_cm0.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\core_cmInstr.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\core_cmFunc.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\system_ARMCM0.h)(0x5798CAC4)
+F (..\..\sdk\platform\driver\gpio\gpio.c)(0x5798CAC3)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O3 --apcs=interwork -I.\includes -I..\..\sdk\platform\include -I..\..\sdk\platform\driver\spi -I..\..\sdk\platform\driver\i2c_eeprom -I..\..\sdk\platform\driver\spi_flash -I..\..\sdk\platform\driver\gpio -I..\..\sdk\platform\arch -I..\..\sdk\platform\arch\compiler\rvds -I..\..\sdk\platform\arch\ll\rvds -I..\..\sdk\platform\driver\reg --c99-I "D:\Head of SW\GLO2\GLO_Device_2_06-13V3\DA1458x_SDK\5.0.4\utilities\secondary_bootloader\RTE"-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\Device\ARM\ARMCM0\Include-D__UVISION_VERSION="514" -DARMCM0 -D__DA14583__-o .\out\gpio.o --omf_browse .\out\gpio.crf --depend .\out\gpio.d)
+I (..\..\sdk\platform\arch\arch.h)(0x5798CAC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\sdk\platform\arch\compiler\rvds\compiler.h)(0x5798CAC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\sdk\platform\arch\ll\rvds\ll.h)(0x5798CAC2)
+I (..\..\sdk\platform\include\reg_intc.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\_reg_intc.h)(0x5798CAC3)
+I (..\..\sdk\platform\driver\reg\reg_access.h)(0x5798CAC3)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\..\sdk\platform\include\ARMCM0.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\global_io.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\datasheet.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\core_cm0.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\core_cmInstr.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\core_cmFunc.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\system_ARMCM0.h)(0x5798CAC4)
+I (..\..\sdk\platform\driver\gpio\gpio.h)(0x5798CAC3)
+I (.\includes\user_periph_setup.h)(0x5798CAC5)
+I (..\..\sdk\platform\driver\i2c_eeprom\i2c_eeprom.h)(0x5798CAC3)
+I (..\..\sdk\platform\driver\spi\spi.h)(0x5798CAC3)
+F (.\src\uart.c)(0x5798CAC5)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O3 --apcs=interwork -I.\includes -I..\..\sdk\platform\include -I..\..\sdk\platform\driver\spi -I..\..\sdk\platform\driver\i2c_eeprom -I..\..\sdk\platform\driver\spi_flash -I..\..\sdk\platform\driver\gpio -I..\..\sdk\platform\arch -I..\..\sdk\platform\arch\compiler\rvds -I..\..\sdk\platform\arch\ll\rvds -I..\..\sdk\platform\driver\reg --c99-I "D:\Head of SW\GLO2\GLO_Device_2_06-13V3\DA1458x_SDK\5.0.4\utilities\secondary_bootloader\RTE"-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\Device\ARM\ARMCM0\Include-D__UVISION_VERSION="514" -DARMCM0 -D__DA14583__-o .\out\uart.o --omf_browse .\out\uart.crf --depend .\out\uart.d)
+I (..\..\sdk\platform\include\global_io.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\datasheet.h)(0x5798CAC3)
+I (..\..\sdk\platform\driver\gpio\gpio.h)(0x5798CAC3)
+I (..\..\sdk\platform\arch\arch.h)(0x5798CAC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\sdk\platform\arch\compiler\rvds\compiler.h)(0x5798CAC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\sdk\platform\arch\ll\rvds\ll.h)(0x5798CAC2)
+I (..\..\sdk\platform\include\reg_intc.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\_reg_intc.h)(0x5798CAC3)
+I (..\..\sdk\platform\driver\reg\reg_access.h)(0x5798CAC3)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\..\sdk\platform\include\ARMCM0.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\core_cm0.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\core_cmInstr.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\core_cmFunc.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\system_ARMCM0.h)(0x5798CAC4)
+I (.\includes\user_periph_setup.h)(0x5798CAC5)
+I (..\..\sdk\platform\driver\i2c_eeprom\i2c_eeprom.h)(0x5798CAC3)
+I (..\..\sdk\platform\driver\spi\spi.h)(0x5798CAC3)
+I (.\includes\uart.h)(0x5798CAC5)
+I (.\includes\timer.h)(0x5798CAC5)
+F (..\..\sdk\platform\driver\i2c_eeprom\i2c_eeprom.c)(0x5ADFF4F2)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O3 --apcs=interwork -I.\includes -I..\..\sdk\platform\include -I..\..\sdk\platform\driver\spi -I..\..\sdk\platform\driver\i2c_eeprom -I..\..\sdk\platform\driver\spi_flash -I..\..\sdk\platform\driver\gpio -I..\..\sdk\platform\arch -I..\..\sdk\platform\arch\compiler\rvds -I..\..\sdk\platform\arch\ll\rvds -I..\..\sdk\platform\driver\reg --c99-I "D:\Head of SW\GLO2\GLO_Device_2_06-13V3\DA1458x_SDK\5.0.4\utilities\secondary_bootloader\RTE"-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\Device\ARM\ARMCM0\Include-D__UVISION_VERSION="514" -DARMCM0 -D__DA14583__-o .\out\i2c_eeprom.o --omf_browse .\out\i2c_eeprom.crf --depend .\out\i2c_eeprom.d)
+I (..\..\sdk\platform\include\global_io.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\datasheet.h)(0x5798CAC3)
+I (..\..\sdk\platform\driver\gpio\gpio.h)(0x5798CAC3)
+I (..\..\sdk\platform\arch\arch.h)(0x5798CAC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\sdk\platform\arch\compiler\rvds\compiler.h)(0x5798CAC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\sdk\platform\arch\ll\rvds\ll.h)(0x5798CAC2)
+I (..\..\sdk\platform\include\reg_intc.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\_reg_intc.h)(0x5798CAC3)
+I (..\..\sdk\platform\driver\reg\reg_access.h)(0x5798CAC3)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\..\sdk\platform\include\ARMCM0.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\core_cm0.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\core_cmInstr.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\core_cmFunc.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\system_ARMCM0.h)(0x5798CAC4)
+I (.\includes\user_periph_setup.h)(0x5798CAC5)
+I (..\..\sdk\platform\driver\i2c_eeprom\i2c_eeprom.h)(0x5798CAC3)
+I (..\..\sdk\platform\driver\spi\spi.h)(0x5798CAC3)
+F (.\src\main.c)(0x5798CAC5)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O3 --apcs=interwork -I.\includes -I..\..\sdk\platform\include -I..\..\sdk\platform\driver\spi -I..\..\sdk\platform\driver\i2c_eeprom -I..\..\sdk\platform\driver\spi_flash -I..\..\sdk\platform\driver\gpio -I..\..\sdk\platform\arch -I..\..\sdk\platform\arch\compiler\rvds -I..\..\sdk\platform\arch\ll\rvds -I..\..\sdk\platform\driver\reg --c99-I "D:\Head of SW\GLO2\GLO_Device_2_06-13V3\DA1458x_SDK\5.0.4\utilities\secondary_bootloader\RTE"-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\Device\ARM\ARMCM0\Include-D__UVISION_VERSION="514" -DARMCM0 -D__DA14583__-o .\out\main.o --omf_browse .\out\main.crf --depend .\out\main.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\..\sdk\platform\include\global_io.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\datasheet.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\core_cm0.h)(0x5798CAC3)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\sdk\platform\include\core_cmInstr.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\core_cmFunc.h)(0x5798CAC3)
+I (.\includes\user_periph_setup.h)(0x5798CAC5)
+I (..\..\sdk\platform\driver\gpio\gpio.h)(0x5798CAC3)
+I (..\..\sdk\platform\arch\arch.h)(0x5798CAC2)
+I (..\..\sdk\platform\arch\compiler\rvds\compiler.h)(0x5798CAC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\sdk\platform\arch\ll\rvds\ll.h)(0x5798CAC2)
+I (..\..\sdk\platform\include\reg_intc.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\_reg_intc.h)(0x5798CAC3)
+I (..\..\sdk\platform\driver\reg\reg_access.h)(0x5798CAC3)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\..\sdk\platform\include\ARMCM0.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\system_ARMCM0.h)(0x5798CAC4)
+I (..\..\sdk\platform\driver\i2c_eeprom\i2c_eeprom.h)(0x5798CAC3)
+I (..\..\sdk\platform\driver\spi\spi.h)(0x5798CAC3)
+I (.\includes\uart_booter.h)(0x5798CAC5)
+I (.\includes\bootloader.h)(0x5B31DFE6)
+I (.\includes\spi_commands.h)(0x5798CAC5)
+I (.\includes\uart.h)(0x5798CAC5)
+F (.\src\uart_booter.c)(0x5798CAC5)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O3 --apcs=interwork -I.\includes -I..\..\sdk\platform\include -I..\..\sdk\platform\driver\spi -I..\..\sdk\platform\driver\i2c_eeprom -I..\..\sdk\platform\driver\spi_flash -I..\..\sdk\platform\driver\gpio -I..\..\sdk\platform\arch -I..\..\sdk\platform\arch\compiler\rvds -I..\..\sdk\platform\arch\ll\rvds -I..\..\sdk\platform\driver\reg --c99-I "D:\Head of SW\GLO2\GLO_Device_2_06-13V3\DA1458x_SDK\5.0.4\utilities\secondary_bootloader\RTE"-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\Device\ARM\ARMCM0\Include-D__UVISION_VERSION="514" -DARMCM0 -D__DA14583__-o .\out\uart_booter.o --omf_browse .\out\uart_booter.crf --depend .\out\uart_booter.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (.\includes\uart_booter.h)(0x5798CAC5)
+I (..\..\sdk\platform\include\global_io.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\datasheet.h)(0x5798CAC3)
+I (.\includes\user_periph_setup.h)(0x5798CAC5)
+I (..\..\sdk\platform\driver\gpio\gpio.h)(0x5798CAC3)
+I (..\..\sdk\platform\arch\arch.h)(0x5798CAC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\sdk\platform\arch\compiler\rvds\compiler.h)(0x5798CAC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\sdk\platform\arch\ll\rvds\ll.h)(0x5798CAC2)
+I (..\..\sdk\platform\include\reg_intc.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\_reg_intc.h)(0x5798CAC3)
+I (..\..\sdk\platform\driver\reg\reg_access.h)(0x5798CAC3)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\..\sdk\platform\include\ARMCM0.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\core_cm0.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\core_cmInstr.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\core_cmFunc.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\system_ARMCM0.h)(0x5798CAC4)
+I (..\..\sdk\platform\driver\i2c_eeprom\i2c_eeprom.h)(0x5798CAC3)
+I (..\..\sdk\platform\driver\spi\spi.h)(0x5798CAC3)
+I (.\includes\uart.h)(0x5798CAC5)
+F (.\src\spi_commands.c)(0x5798CAC5)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O3 --apcs=interwork -I.\includes -I..\..\sdk\platform\include -I..\..\sdk\platform\driver\spi -I..\..\sdk\platform\driver\i2c_eeprom -I..\..\sdk\platform\driver\spi_flash -I..\..\sdk\platform\driver\gpio -I..\..\sdk\platform\arch -I..\..\sdk\platform\arch\compiler\rvds -I..\..\sdk\platform\arch\ll\rvds -I..\..\sdk\platform\driver\reg --c99-I "D:\Head of SW\GLO2\GLO_Device_2_06-13V3\DA1458x_SDK\5.0.4\utilities\secondary_bootloader\RTE"-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\Device\ARM\ARMCM0\Include-D__UVISION_VERSION="514" -DARMCM0 -D__DA14583__-o .\out\spi_commands.o --omf_browse .\out\spi_commands.crf --depend .\out\spi_commands.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\..\sdk\platform\include\global_io.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\datasheet.h)(0x5798CAC3)
+I (.\includes\user_periph_setup.h)(0x5798CAC5)
+I (..\..\sdk\platform\driver\gpio\gpio.h)(0x5798CAC3)
+I (..\..\sdk\platform\arch\arch.h)(0x5798CAC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\sdk\platform\arch\compiler\rvds\compiler.h)(0x5798CAC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\sdk\platform\arch\ll\rvds\ll.h)(0x5798CAC2)
+I (..\..\sdk\platform\include\reg_intc.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\_reg_intc.h)(0x5798CAC3)
+I (..\..\sdk\platform\driver\reg\reg_access.h)(0x5798CAC3)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\..\sdk\platform\include\ARMCM0.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\core_cm0.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\core_cmInstr.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\core_cmFunc.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\system_ARMCM0.h)(0x5798CAC4)
+I (..\..\sdk\platform\driver\i2c_eeprom\i2c_eeprom.h)(0x5798CAC3)
+I (..\..\sdk\platform\driver\spi\spi.h)(0x5798CAC3)
+I (.\includes\spi_commands.h)(0x5798CAC5)
+I (..\..\sdk\platform\driver\spi_flash\spi_flash.h)(0x5798CAC3)
+F (.\src\crc32.c)(0x5798CAC5)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O3 --apcs=interwork -I.\includes -I..\..\sdk\platform\include -I..\..\sdk\platform\driver\spi -I..\..\sdk\platform\driver\i2c_eeprom -I..\..\sdk\platform\driver\spi_flash -I..\..\sdk\platform\driver\gpio -I..\..\sdk\platform\arch -I..\..\sdk\platform\arch\compiler\rvds -I..\..\sdk\platform\arch\ll\rvds -I..\..\sdk\platform\driver\reg --c99-I "D:\Head of SW\GLO2\GLO_Device_2_06-13V3\DA1458x_SDK\5.0.4\utilities\secondary_bootloader\RTE"-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\Device\ARM\ARMCM0\Include-D__UVISION_VERSION="514" -DARMCM0 -D__DA14583__-o .\out\crc32.o --omf_browse .\out\crc32.crf --depend .\out\crc32.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+F (.\src\sw_aes.c)(0x5798CAC5)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O3 -Otime --apcs=interwork -I.\includes -I..\..\sdk\platform\include -I..\..\sdk\platform\driver\spi -I..\..\sdk\platform\driver\i2c_eeprom -I..\..\sdk\platform\driver\spi_flash -I..\..\sdk\platform\driver\gpio -I..\..\sdk\platform\arch -I..\..\sdk\platform\arch\compiler\rvds -I..\..\sdk\platform\arch\ll\rvds -I..\..\sdk\platform\driver\reg --c99-I "D:\Head of SW\GLO2\GLO_Device_2_06-13V3\DA1458x_SDK\5.0.4\utilities\secondary_bootloader\RTE"-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\Device\ARM\ARMCM0\Include-D__UVISION_VERSION="514" -DARMCM0 -D__DA14583__-o .\out\sw_aes.o --omf_browse .\out\sw_aes.crf --depend .\out\sw_aes.d)
+I (..\..\sdk\platform\arch\arch.h)(0x5798CAC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\sdk\platform\arch\compiler\rvds\compiler.h)(0x5798CAC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\sdk\platform\arch\ll\rvds\ll.h)(0x5798CAC2)
+I (..\..\sdk\platform\include\reg_intc.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\_reg_intc.h)(0x5798CAC3)
+I (..\..\sdk\platform\driver\reg\reg_access.h)(0x5798CAC3)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\..\sdk\platform\include\ARMCM0.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\global_io.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\datasheet.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\core_cm0.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\core_cmInstr.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\core_cmFunc.h)(0x5798CAC3)
+I (..\..\sdk\platform\include\system_ARMCM0.h)(0x5798CAC4)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (.\includes\sw_aes.h)(0x5798CAC5)
+I (.\includes\os_int.h)(0x5798CAC5)
+I (.\includes\os_port.h)(0x5798CAC5)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\Keil_v5\ARM\ARMCC\include\errno.h)(0x5475F300)
+F (.\includes\user_periph_setup.h)(0x5798CAC5)()
+F (.\includes\timer.h)(0x5798CAC5)()
+F (.\includes\uart.h)(0x5798CAC5)()
+F (..\..\sdk\platform\include\datasheet.h)(0x5798CAC3)()
+F (..\..\sdk\platform\include\global_io.h)(0x5798CAC3)()
+F (..\..\sdk\platform\driver\spi\spi.h)(0x5798CAC3)()
+F (..\..\sdk\platform\driver\spi_flash\spi_flash.h)(0x5798CAC3)()
+F (..\..\sdk\platform\driver\gpio\gpio.h)(0x5798CAC3)()
+F (..\..\sdk\platform\driver\i2c_eeprom\i2c_eeprom.h)(0x5798CAC3)()
+F (.\includes\uart_booter.h)(0x5798CAC5)()
+F (.\includes\bootloader.h)(0x5B31DFE6)()
+F (.\includes\spi_commands.h)(0x5798CAC5)()
+F (.\includes\os_int.h)(0x5798CAC5)()
+F (.\includes\os_port.h)(0x5798CAC5)()
+F (.\includes\sw_aes.h)(0x5798CAC5)()
